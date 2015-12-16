@@ -1,0 +1,14 @@
+var	start	end	width	descr
+ANOENC	1	4	4	Año de la encuesta
+NUMERO	5	9	5	Número secuencial que indica el orden del hogar en el fichero
+CODIGO	10	14	5	Código de gasto
+GASTO	15	29	15	Importe total del gasto monetario y no  monetario elevado  temporal  y poblacionalmente
+PORCEN	30	34	5	Porcentaje de imputación del gasto total (2 decimales)
+CANTIDAD	35	46	12	Cantidad (sólo para los códigos que requieren cantidad física) elevado  temporal  y poblacionalmente
+GASTOMON 	47	61	15	Importe total del gasto monetario (para el salario en especie se contabiliza sólo el importe del pago realizado por el hogar) elevado  temporal  y poblacionalmente
+GASTNOM1 	62	74	13	Importe total del gasto no monetario procedente del autoconsumo elevado  temporal  y poblacionalmente
+GASTNOM2 	75	87	13	Importe total del gasto no monetario procedente del autosuministro elevado  temporal  y poblacionalmente
+GASTNOM3  	88	100	13	Importe total del gasto no monetario procedente del salario en especie, (no se incluye alquiler imputado a la vivienda cedida por razón de trabajo) elevado  temporal  y poblacionalmente
+GASTNOM4 	101	113	13	Importe total del gasto no monetario procedente del alquiler imputado a la vivienda principal y otras viviendas a disposición del hogar, en propiedad o cedida gratuita o semigratuitamente por razón distinta a trabajo elevado  temporal  y poblacionalmente
+GASTNOM5 	114	126	13	Importe total del gasto no monetario procedente del alquiler imputado a la vivienda, principal y otras viviendas a disposición del hogar, cedida por razón de trabajo elevado  temporal  y poblacionalmente
+FACTOR	127	137	11	Factor poblacional 

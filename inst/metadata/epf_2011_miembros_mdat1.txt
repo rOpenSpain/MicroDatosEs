@@ -1,0 +1,36 @@
+var	start	end	width	descr
+ANOENC	1	4	4	Año de la encuesta
+NUMERO	5	9	5	Número secuencial que indica el orden del hogar en el fichero
+NORDEN	10	11	2	Número de orden del miembro del hogar
+CATEGMH	12	13	2	Categoría del miembro del hogar
+SUSPRIN	14	14	1	¿Es el sustentador principal?
+RELASP	15	16	2	Relación de parentesco con el sustentador principal
+EDAD	17	18	2	Edad calculada con referencia a la fecha de la entrevista de la ficha de hogar
+SEXO	19	20	2	Sexo
+PAISNACIM	21	22	2	País de nacimiento(A partir de 2011)
+NACIONA	23	24	2	Nacionalidad
+PAISNACION	25	26	2	País del que tiene nacionalidad extranjera 
+SITURES	27	28	2	Situación de residencia
+ECIVILLEGAL	29	30	2	Estado civil legal(A partir de 2011 esta variable se refiere al estado civil legal y no al de hecho)
+NORDENCO	31	32	2	Número de orden del cónyuge o pareja
+UNION	33	34	2	Tipo de unión con el cónyuge o pareja(A partir de 2011)
+CONVIVENCIA	35	36	2	Convivencia en pareja(A partir de 2011)
+NORDENPA	37	38	2	Número de orden del padre
+PAISPADRE	39	40	2	País de nacimiento del padre(A partir de 2011)
+NORDENMA	41	42	2	Número de orden de la madre
+PAISMADRE	43	44	2	País de nacimiento de la madre(A partir de 2011)
+ESTUDIOS	45	46	2	Estudios completados(Modificada en 2011 para recoger las nuevas titulaciones de grado y másteres universitarios)
+ESTUDRED	47	48	2	Estudios completados reducida
+SITUACT	49	50	2	Situación en la actividad la semana anterior a la entrevista
+SITURED	51	52	2	Situación en la actividad reducida
+OCU	53	54	2	¿Estaba ocupado el miembro del hogar en la semana anterior a la entrevista?
+JORNADA	55	56	2	Tipo de jornada en el trabajo(A partir de 2011)
+PERCEP	57	58	2	¿Es perceptor de ingresos monetarios regulares durante el mes anterior a la entrevista?
+IMPEXACP	59	63	5	Importe exacto de los ingresos mensuales netos totales del miembro del hogar 
+IMPUEXACP	64	64	1	¿El importe exacto procede de una imputación?
+INTERINP	65	66	2	Intervalo de ingresos mensuales netos totales del miembro del hogar
+IMPUINTERP	67	67	1	¿El intervalo de ingresos procede de una imputación? 
+NINODEP	68	69	2	¿Es niño dependiente?
+HIJODEP	70	71	2	¿Es hijo dependiente?
+ADULTO	72	73	2	¿Es adulto?
+FACTOR	74	84	17	Factor poblacional

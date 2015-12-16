@@ -1,0 +1,36 @@
+var	start	end	width	descr
+CPROI	1	2	2	Código Provincia de Inscripción
+CMUNI	3	5	3	Código Municipio de Inscripción (para municipios mayores de 10.000 habitantes)
+MESN	6	7	2	Mes-fecha de nacimiento
+ANON	8	11	4	Año-fecha de nacimiento
+SEXO	12	12	1	Sexo
+MESDEF	13	14	2	Mes-fecha de la defunción
+ANODEF	15	18	4	Año-fecha de la defunción
+NACIONALIDAD	19	19	1	Nacionalidad
+PAISNAC	20	22	3	Código país nacionalidad del fallecido
+LUGNAC	23	23	1	Lugar de nacimiento del fallecido
+CPRON	24	25	2	Código provincia nacimiento  del fallecido
+CMUNN	26	28	3	Código municipio nacimiento  del fallecido (para municipios mayores de 10.000 habitantes)
+PAISNX	29	31	3	Código país de nacimiento extranjero del fallecido
+LUGRES	32	32	1	Lugar de residencia del fallecido
+CPRORE	33	34	2	Código provincia de residencia del fallecido
+CMUNRE	35	37	3	Código municipio residencia del fallecido (para municipios mayores de 10.000 habitantes)
+PAISREX	38	40	3	Código de país de residencia extranjero del fallecido
+ECIV	41	41	1	Estado civil del fallecido
+CODPROF	42	43	2	Código autoasignado de la profesión, oficio u ocupación principal del fallecido
+ANOSC	44	46	3	Años cumplidos
+MESESC	47	48	2	Meses cumplidos (para menores de un año)
+DIASC	49	50	2	Dias cumplidos (para menores de un mes)
+TAMAMUNI	51	51	1	Tamaño municipio  inscripción
+TAMAMUNINAC	52	52	1	Tamaño municipio nacimiento
+TAMAMUNIRES	53	53	1	Tamaño municipio residencia
+TAMAPAIS_NACIMI	54	54	1	Tamaño pais nacimiento
+TAMAPAIS_RESIDE	55	55	1	Tamaño pais residencia
+TAMAPAIS_NACIONA	56	56	1	Tamaño pais nacionalidad
+CBAS1	57	57	1	1er carácter del código de causa básica
+CBAS23	58	59	2	2º y 3er carácter del código de causa básica
+CBAS4	60	60	1	4º carácter del código de causa básica
+CAUSAR	61	63	3	Causa de mortalidad reducida (102 grupos)	
+CAUSAP	64	65	2	Causa de mortalidad perinatal ( 93 grupos)	
+CAUSAINF	66	67	2	Causa de mortalidad infantil (54 grupos) para menores de 1 año	
+BLANCO	68	87	20	Campo a blancos	

@@ -1,0 +1,192 @@
+var	start	end	width	descr
+ANOENC	1	4	4	Año de la encuesta
+NUMERO	5	9	5	Número secuencial que indica el orden del hogar en el fichero
+CCAA	10	11	2	Comunidad autónoma de residencia
+NUTS1	12	12	1	Región
+CAPROV	13	13	1	Capital de provincia
+TAMAMU	14	14	1	Tamaño del municipio
+DENSI	15	15	1	Densidad de población (Modificada en 2011)
+CLAVE	16	16	1	Clave de colaboración efectiva del hogar
+CLATEO	17	17	1	Clave de colaboración teórica del hogar 
+FACTOR	18	28	11	Factor poblacional 
+NMIEMB	29	30	2	Número de miembros del hogar
+TAMANO	31	31	1	Tamaño del hogar
+NMIEMSD	32	33	2	Número de miembros del hogar que pertenecen al servicio doméstico
+NMIEMHU	34	35	2	Número de miembros del hogar que son huéspedes 
+NMIEMIN	36	37	2	Número de miembros del hogar que son invitados 
+NMIEM1	38	39	2	Número de miembros del hogar de 14 o más años
+NMIEM2	40	41	2	Número de miembros del hogar menores de 14 años 
+NMIEM3	42	43	2	Número de miembros del hogar menores de 16 años 
+NMIEM4	44	45	2	Número de miembros del hogar de 16 o más años 
+NMIEM5	46	47	2	Número de miembros del hogar menores de 18 años 
+NMIEM6	48	49	2	Número de miembros del hogar de 18 o más años
+NMIEM7	50	51	2	Número de miembros del hogar de 0 a 4 años
+NMIEM8	52	53	2	Número de miembros del hogar de 5 a 15 años
+NMIEM9	54	55	2	Número de miembros del hogar de 16 a 24 años
+NMIEM10	56	57	2	Número de miembros del hogar de 25 a 34 años
+NMIEM11	58	59	2	Número de miembros del hogar de 35 a 64 años
+NMIEM12	60	61	2	Número de miembros del hogar de 65 a 84 años
+NMIEM13	62	63	2	Número de miembros del hogar de 85 o más años
+NUMACTI	64	65	2	Número de miembros activos en el hogar
+NUMINACTI	66	67	2	Número de miembros no activos en el hogar
+NUMOCU	68	69	2	Número de miembros ocupados en el hogar
+NUMNOCU	70	71	2	Número de miembros no ocupados en el hogar
+NUMESTU	72	73	2	Número de estudiantes en el hogar
+NUMNOESTU	74	75	2	Número de no estudiantes en el hogar
+NNINOSD	76	77	2	Número de niños dependientes (Ver definición en la variable TIPOHOGAR3)
+NHIJOSD	78	79	2	Número de hijos dependientes (Ver definición en la variable TIPOHOGAR4)
+UC1	80	82	3	Tamaño equivalente del hogar. Escala OCDE (1 + 0,7 * (NMIEM1 - 1) + 0,5 *  NMIEM2)
+UC2	83	85	3	Tamaño equivalente del hogar. Escala OCDE modificada (1 + 0,5 * (NMIEM1- 1) + 0,3 * NMIEM2 )
+PF2TEO	86	87	2	Número de libretas de cuentas individuales teóricas 
+PF2RECO	88	89	2	Número de libretas de cuentas individuales recogidas
+TIPHOGAR1	90	91	2	Tipo de hogar (primera clasificación)  
+TIPHOGAR2	92	93	2	Tipo de hogar (segunda clasificación)  
+TIPHOGAR3	94	95	2	Tipo de hogar (tercera clasificación)  
+TIPHOGAR4	96	97	2	Tipo de hogar (cuarta clasificación)  
+TIPHOGAR5	98	99	2	Tipo de hogar (quinta clasificación)  
+TIPHOGAR6	100	101	2	Tipo de hogar (sexta clasificación)  
+TIPHOGAR7	102	103	2	Tipo de hogar (séptima clasificación)  
+TIPHOGAR8	104	105	2	Tipo de hogar (octava clasificación) derivada de TIPHOGAR1
+TIPHOGAR9	106	107	2	Tipo de hogar (novena clasificación) derivada de TIPHOGAR4 
+TIPHOGAR10	108	109	2	Tipo de hogar (décima clasificación)
+TIPHOGAR11	110	111	2	Tipo de hogar (undécima clasificación)
+SITUOCUHOG	112	113	2	Situación del hogar respecto a la ocupación
+SITUACTHOG	114	115	2	Situación del hogar respecto a la actividad
+NORDENSP	116	117	2	Número de orden
+EDADSP	118	119	2	Edad (calculada a fecha de cumplimentación de la ficha de hogar) (Ampliado el intervalo en 2011)
+SEXOSP	120	121	2	Sexo
+PAISNACODSP	122	123	2	País de nacimiento (A partir de 2011)
+NACIONASP	124	125	2	Nacionalidad
+PAISCODSP	126	127	2	País del que tiene nacionalidad extranjera
+SITURESSP	128	129	2	Situación de residencia
+ECIVILLEGALSP	130	131	2	Estado civil legal (A partir de 2011 esta variable se refiere al estado civil legal y no al de hecho)
+NORDENCOSP	132	133	2	Número de orden del cónyuge o pareja
+UNIONSP	134	135	2	Tipo de unión con el cónyuge o pareja (A partir de 2011)
+CONVIVENCIASP	136	137	2	Convivencia en pareja del sustentador principal (A partir de 2011)
+NORDENPASP	138	139	2	Número de orden del  padre
+PAISPADRESP	140	141	2	País de nacimiento del padre (A partir de 2011)
+NORDENMASP	142	143	2	Número de orden de la  madre
+PAISMADRESP	144	145	2	País de nacimiento de la madre (A partir de 2011)
+ESTUDIOSSP	146	147	2	Estudios completados (Modificada en 2011 para recoger las nuevas titulaciones de grado y másteres universitarios)
+ESTUDREDSP	148	149	2	Estudios completados reducida
+SITUACTSP	150	151	2	Situación en la actividad la semana anterior a  la entrevista (A partir de 2011 las personas ‘Con incapacidad laboral permanente’ se recogen en una categoría propia)
+SITUREDSP	152	153	2	Situación en la actividad reducida
+OCUSP	154	155	2	¿Estaba el sustentador principal ocupado en la semana anterior a la entrevista?
+JORNADASP	156	157	2	Tipo de jornada en el trabajo (A partir de 2011)
+PERCEPSP	158	159	2	¿Es el SP perceptor de ingresos monetarios regulares durante el mes anterior al de entrevista?
+IMPEXACPSP	160	164	5	Importe exacto de los ingresos mensuales netos del sustentador principal 
+IMPUEXACPSP	165	165	1	¿El importe exacto procede de una imputación?
+INTERINPSP	166	167	2	Intervalo de ingresos mensuales netos totales del sustentador principal
+IMPUINTERPSP	168	168	1	¿El intervalo de ingresos  procede de una imputación?
+TRABAJO	169	170	2	¿Ha trabajado alguna vez en su vida?
+OCUPA	171	172	2	Ocupación que desempeña o desempeñó (Ver ANEXO: Clasificación de ocupaciones) (A partir de 2012 nueva Clasificación Nacional de Ocupaciones, CNO11.)
+OCUPARED	173	174	2	Ocupación que desempeña o desempeñó reducida (Ver ANEXO: Clasificación de  ocupaciones) (A partir de 2012 nueva Clasificación Nacional de Ocupaciones, CNO11.)
+ACTESTB	176	176	1	Actividad del establecimiento en el que trabaja o trabajó (Ver ANEXO: Clasificación Nacional de  Actividades Económicas)
+ACTESTBRED	177	178	2	Actividad del establecimiento en el que trabaja o trabajó reducida (Ver ANEXO: Clasificación Nacional de  Actividades Económicas)
+SITPROF	179	180	2	Situación profesional
+SECTOR	181	182	2	Sector de actividad
+TIPOCONT	183	184	2	Tipo de contrato
+SITSOCI	185	186	2	Situación socioeconómica del sustentador principal (A partir de 2012 se ha adaptado esta variable a la nueva Clasificación Nacional de Ocupaciones, CNO11.)
+SITSOCIRE	187	188	2	Situación socioeconómica del sustentador principal (Clasificación reducida)
+REGTEN	189	189	1	Régimen de tenencia
+TIPOEDIF	190	191	2	Tipo de edificio en el que está ubicada la vivienda
+ZONARES	192	193	2	Tipo de zona de residencia
+TIPOCASA	194	195	2	Tipo de casa
+NHABIT	196	197	2	Número de habitaciones
+ANNOCON	198	199	2	Fecha construcción edificio
+SUPERF	200	202	3	Superficie útil de la vivienda
+AGUACALI	203	204	2	Disposición de agua caliente
+FUENAGUA	205	206	2	Fuente de energía para agua caliente
+CALEF	207	208	2	Disposición de calefacción
+FUENCALE	209	210	2	Fuente de energía para calefacción
+DISPOSIOV	211	211	1	Disposición de otras viviendas en los últimos 12 meses
+NUMOVD	212	212	1	Número de otras viviendas a disposición del hogar
+REGTENV1	213	214	2	Régimen de tenencia de la  vivienda  1
+REGTENV2	215	216	2	Régimen de tenencia de la  vivienda  2
+REGTENV3	217	218	2	Régimen de tenencia de la  vivienda  3
+REGTENV4	219	220	2	Régimen de tenencia de la  vivienda  4
+REGTENV5	221	222	2	Régimen de tenencia de la  vivienda  5
+REGTENV6	223	224	2	Régimen de tenencia de la  vivienda  6
+REGTENV7	225	226	2	Régimen de tenencia de la  vivienda  7
+REGTENV8	227	228	2	Régimen de tenencia de la  vivienda  8
+REGTENV9	229	230	2	Régimen de tenencia de la  vivienda  9
+MESESV1	231	232	2	Número de meses  a disposición del  hogar de la vivienda 1
+MESESV2	233	234	2	Número de meses  a disposición del  hogar de la vivienda 2
+MESESV3	235	236	2	Número de meses  a disposición del  hogar de la vivienda 3
+MESESV4	237	238	2	Número de meses  a disposición del  hogar de la vivienda 4
+MESESV5	239	240	2	Número de meses  a disposición del  hogar de la vivienda 5
+MESESV6	241	242	2	Número de meses  a disposición del  hogar de la vivienda 6
+MESESV7	243	244	2	Número de meses  a disposición del  hogar de la vivienda 7
+MESESV8	245	246	2	Número de meses  a disposición del  hogar de la vivienda 8
+MESESV9	247	248	2	Número de meses  a disposición del  hogar de la vivienda 9
+DIASV1	249	250	2	Número de días  a disposición del  hogar de la vivienda 1
+DIASV2	251	252	2	Número de días  a disposición del  hogar de la vivienda 2
+DIASV3	253	254	2	Número de días  a disposición del  hogar de la vivienda 3
+DIASV4	255	256	2	Número de días  a disposición del  hogar de la vivienda 4
+DIASV5	257	258	2	Número de días  a disposición del  hogar de la vivienda 5
+DIASV6	259	260	2	Número de días  a disposición del  hogar de la vivienda 6
+DIASV7	261	262	2	Número de días  a disposición del  hogar de la vivienda 7
+DIASV8	263	264	2	Número de días  a disposición del  hogar de la vivienda 8
+DIASV9	265	266	2	Número de días  a disposición del  hogar de la vivienda 9
+AGUACV1	267	268	2	Disposición de agua caliente en la vivienda 1
+AGUACV2	269	270	2	Disposición de agua caliente en la vivienda 2
+AGUACV3	271	272	2	Disposición de agua caliente en la vivienda 3
+AGUACV4	273	274	2	Disposición de agua caliente en la vivienda 4
+AGUACV5	275	276	2	Disposición de agua caliente en la vivienda 5
+AGUACV6	277	278	2	Disposición de agua caliente en la vivienda 6
+AGUACV7	279	280	2	Disposición de agua caliente en la vivienda 7
+AGUACV8	281	282	2	Disposición de agua caliente en la vivienda 8
+AGUACV9	283	284	2	Disposición de agua caliente en la vivienda 9
+FUENACV1	285	286	2	Fuente de energía para agua caliente en la vivienda 1
+FUENACV2	287	288	2	Fuente de energía para agua caliente en la vivienda 2
+FUENACV3	289	290	2	Fuente de energía para agua caliente en la vivienda 3
+FUENACV4	291	292	2	Fuente de energía para agua caliente en la vivienda 4
+FUENACV5	293	294	2	Fuente de energía para agua caliente en la vivienda 5
+FUENACV6	295	296	2	Fuente de energía para agua caliente en la vivienda 6
+FUENACV7	297	298	2	Fuente de energía para agua caliente en la vivienda 7
+FUENACV8	299	300	2	Fuente de energía para agua caliente en la vivienda 8
+FUENACV9	301	302	2	Fuente de energía para agua caliente en la vivienda 9
+CALEFV1	303	304	2	Disposición de calefacción en la   vivienda 1
+CALEFV2	305	306	2	Disposición de calefacción en la   vivienda 2
+CALEFV3	307	308	2	Disposición de calefacción en la   vivienda 3
+CALEFV4	309	310	2	Disposición de calefacción en la   vivienda 4
+CALEFV5	311	312	2	Disposición de calefacción en la   vivienda 5
+CALEFV6	313	314	2	Disposición de calefacción en la   vivienda 6
+CALEFV7	315	316	2	Disposición de calefacción en la   vivienda 7
+CALEFV8	317	318	2	Disposición de calefacción en la   vivienda 8
+CALEFV9	319	320	2	Disposición de calefacción en la   vivienda 9
+FUENCAV1	321	322	2	Fuente de energía para calefacción en  la vivienda 1
+FUENCAV2	323	324	2	Fuente de energía para calefacción en  la vivienda 2
+FUENCAV3	325	326	2	Fuente de energía para calefacción en  la vivienda 3
+FUENCAV4	327	328	2	Fuente de energía para calefacción en  la vivienda 4
+FUENCAV5	329	330	2	Fuente de energía para calefacción en  la vivienda 5
+FUENCAV6	331	332	2	Fuente de energía para calefacción en  la vivienda 6
+FUENCAV7	333	334	2	Fuente de energía para calefacción en  la vivienda 7
+FUENCAV8	335	336	2	Fuente de energía para calefacción en  la vivienda 8
+FUENCAV9	337	338	2	Fuente de energía para calefacción en  la vivienda 9
+GASTOT	339	354	16	Importe total del gasto anual  del hogar monetario y no monetario, elevado  temporal  y poblacionalmente) (para el salario en especie se contabiliza tanto el importe del pago realizado como la bonificación recibida)  
+IMPUTGAS	355	359	5	Porcentaje de imputación del gasto total 
+GASTMON	360	375	16	Importe total del gasto monetario anual del hogar   elevado  temporal  y poblacionalmente. (para el salario en especie se contabiliza sólo  el importe del pago realizado por el hogar)
+GASTNOM1	376	388	13	Importe total del gasto anual del hogar   no monetario procedente del autoconsumo, (incluye el valor de las comidas gratuitas  en el establecimiento de hostelería propiedad  de algún miembro del hogar) elevado  temporal  y poblacionalmente.
+GASTNOM2	389	401	13	Importe total del gasto anual  del hogar no monetario procedente del autosuministro, elevado  temporal y poblacionalmente. 
+GASTNOM3	402	414	13	Importe total del gasto anual  no monetario del hogar procedente del salario en especie, (incluye alquiler imputado a la vivienda cedida por razón de trabajo y  valor de las comidas gratuitas o bonificadas en el lugar de trabajo de algún miembro del hogar que trabaja como asalariado) elevado  temporal  y poblacionalmente.
+GASTNOM4	415	427	13	Importe total del gasto  anual no monetario del hogar procedente del alquiler imputado a la vivienda, principal  y a otras  viviendas a disposición del hogar ,  en propiedad  o cedidas gratuita o semigratuitamente por razón distinta a  trabajo elevado  temporal  y poblacionalmente. 
+CAPROP	428	429	2	Ingresos de trabajo por cuenta propia
+CAJENA	430	431	2	Ingresos de trabajo por cuenta ajena
+PENSIO	432	433	2	Ingresos por pensiones contributivas y no contributivas
+DESEM	434	435	2	Subsidios y prestaciones de desempleo
+OTRSUB	436	437	2	Otros subsidios y prestaciones sociales
+RENTAS	438	439	2	Rentas de la propiedad y del capital
+OTROIN	440	441	2	Otros ingresos regulares
+FUENPRIN	442	443	2	Principal fuente de ingresos
+FUENPRINRED	444	445	2	Principal fuente de ingresos reducida
+IMPEXAC	446	450	5	Importe exacto de los ingresos mensuales netos totales del hogar
+IMPUEXAC	451	451	1	¿El importe exacto  que se proporciona en el fichero procede de una imputación?
+INTERIN	452	453	2	Intervalo de ingresos mensuales netos totales del hogar
+IMPUINTER	454	454	1	¿El intervalo de ingresos  que se proporciona en el fichero procede de una imputación?
+NUMPERI	455	456	2	Número de miembros del hogar perceptores de ingresos
+COMIMH	457	459	3	Número de comidas y cenas efectuadas por los miembros del hogar (excepto el servicio doméstico, invitados y huéspedes)
+COMISD	460	462	3	Número de comidas y cenas efectuadas por el servicio doméstico (sean  miembros del hogar o no)
+COMIHU	463	465	3	Número de comidas y cenas efectuadas por los huéspedes  (sean miembros del hogar o no)
+COMIINV	466	468	3	Número de comidas y cenas efectuadas por los invitados  (sean miembros del hogar o no)
+COMITOT	469	471	3	Número total de comidas y cenas
