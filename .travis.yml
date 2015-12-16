@@ -1,28 +1,22 @@
-## .travis.yml for R projects.
+## .travis.yml file for use with metacran/r-builder
 ## See https://github.com/metacran/r-builder for details.
 
 language: c
 sudo: required
 
 before_install:
-before_install:
   - curl -OL https://raw.githubusercontent.com/metacran/r-builder/master/pkg-build.sh
   - chmod 755 pkg-build.sh
   - ./pkg-build.sh bootstrap
 
 install:
-  - ./travis-tool.sh install_deps
+  - ./pkg-build.sh install_deps
 
 script:
-  - ./travis-tool.sh run_tests
+  - ./pkg-build.sh run_tests
 
 after_failure:
-  - ./travis-tool.sh dump_logs
-
-notifications:
-  email:
-    on_success: change
-    on_failure: change
+  - ./pkg-build.sh dump_logs
 
 notifications:
   email:
@@ -34,4 +28,3 @@ env:
     - RVERSION=oldrel
     - RVERSION=release
     - RVERSION=devel
-
