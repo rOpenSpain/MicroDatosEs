@@ -21,7 +21,7 @@ censo2010 <- function(census.file, columns = NULL, summary = TRUE){
   
   if(summary){
     print(summary(x))
-    invisible(NULL)
+    return(invisible(NULL))
   }
   
   if(! is.null(columns)){
