@@ -1,8 +1,8 @@
 Package: MicroDatosEs
 Type: Package
 Title: Utilities for Official Spanish Microdata
-Version: 0.7.12
-Date: 2016-01-12
+Version: 0.7.13
+Date: 2016-08-06
 Encoding: UTF-8
 Authors@R:c( person("Carlos J.", "Gil Bellosta", email="cgb@datanalytics.com", role=c('aut', 'cre')),
 		person("Carlos", "Neira", email = "cneirac@gmail.com", role="ctb"),
@@ -10,7 +10,7 @@ Authors@R:c( person("Carlos J.", "Gil Bellosta", email="cgb@datanalytics.com", r
 		person("José Luis", "Cañadas Reche", email = "canadasreche@gmail.com", role="ctb"))
 Description: Provides utilities for reading and processing microdata from Spanish official statistics with R.
 URL: http://www.datanalytics.com/2012/08/06/un-paseo-por-el-paquete-microdatoses-y-la-epa-de-nuevo/
-Depends: memisc, Hmisc
+Depends: memisc, Hmisc, readr
 License: GPL-3
 LazyLoad: yes
 LazyData: yes
