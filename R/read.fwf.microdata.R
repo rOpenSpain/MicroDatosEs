@@ -20,6 +20,9 @@ read.fwf.microdata <- function(file, file.mdat.1, file.mdat.2, fileEncoding = "U
 
 	# Replaces keys in raw data by actual column values
 	assign.labels <-  function(v, var.name, mdat){
+	  
+	  print(var.name)
+	  
 		tmp <- mdat[mdat$var == var.name,]
 
 		# special cases: numeric, etc.
@@ -34,11 +37,20 @@ read.fwf.microdata <- function(file, file.mdat.1, file.mdat.2, fileEncoding = "U
 			  v <- as.numeric(v)
 				return(v %/% 100 + ( v %% 100 ) / 60)
 			}
-			return( v )
+			return(v)
 		}
-
-		indices <- match( v, tmp$llave )
-		return( as.character( tmp$valor )[ indices ] )
+		
+		v <- factor(v)
+		
+		# Check whether keys are numbers (usual case)
+		# Then, format codes (maybe like "07") into codes such like "7"
+		if (!any(is.na(as.numeric(levels(v))))){
+		  levels(v) <- as.character(as.numeric(levels(v)))
+		}
+		
+		# replace codes by descriptions
+		levels(v) <- tmp$valor[match(levels(v), tmp$llave)]
+		as.character(v)
 	}
 
 	as.data.frame(sapply(names(dat), function(x) assign.labels(dat[[x]], x, mdat.2), simplify = F))
