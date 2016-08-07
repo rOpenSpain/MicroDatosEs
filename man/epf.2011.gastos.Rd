@@ -23,25 +23,25 @@ This function reads microdadata files for households expenditure statistics coll
 It has been built and tested on the 2011 files and may be able to read files conforming to later and earlier formats.
 }
 \value{
-A data.set, a data structure defined in the memisc package.
-
+A \code{data.frame}.
 }
 
 \references{
 http://www.ine.es/metodologia/t25/t2530p458.pdf
 }
 \author{
-Diego Paniagua Sánchez
+Diego Paniagua Sánchez and Carlos J. Gil Bellosta
 }
 %\seealso{
 %  \code{\link{as.data.frame.px}},
 %}
 \examples{
-# This command reads a few lines sampled from the expenditures households EPF file for 2011
-sample.Epfgastos2011 <- epf.2011.gastos(system.file( "extdata",
-                                                      "sample_gastos_a2011.txt",
-                                                      package = "MicroDatosEs") )
-summary(as.data.frame(sample.Epfgastos2011))
+# This command reads a few lines sampled from 
+# the expenditures households EPF file for 2011
+x <- epf.2011.gastos(system.file( "extdata", 
+                     "sample_gastos_a2011.txt",
+                     package = "MicroDatosEs") )
+summary(x)
 }
 
 \keyword{ manip }
