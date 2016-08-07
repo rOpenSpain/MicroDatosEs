@@ -8,7 +8,7 @@ This function reads the microdata file for deaths statistics, as collected by th
 It was originally built using the metadata for the 2011 file and may work with microdata files for other yearly submissions. 
 }
 \usage{
-defun2011( file )
+defun2011(file)
 }
 
 \arguments{
@@ -21,7 +21,7 @@ The survey data can be downloaded from \url{http://www.ine.es/en/prodyser/micro_
 It has been built and tested on the 2011 files and may be able to read files conforming to previous (or later) formats.
 }
 \value{
-A \code{\link{data.set}}, a data structure defined in the \code{\link{memisc}} package.
+A \code{\link{data.frame}}.
 }
 \references{
   \url{http://www.ine.es/en/prodyser/micro_mnp_defun_en.htm}
@@ -33,11 +33,11 @@ Carlos J. Gil Bellosta
 %  \code{\link{as.data.frame.px}},
 %}
 \examples{
-# This command reads a few lines sampled from the EPA for the 1Q 2011
-sample.defun.data <- defun2011(system.file( "extdata", 
-                               "sampleDEFUN2010.txt", 
-                               package = "MicroDatosEs") )
-summary( as.data.frame( sample.defun.data ) )
+# This command reads a few lines sampled from the 2010 deaths microdata file
+x <- defun2011(system.file("extdata", 
+               "sampleDEFUN2010.txt", 
+               package = "MicroDatosEs"))
+summary(x)
 }
 
 \keyword{ manip }

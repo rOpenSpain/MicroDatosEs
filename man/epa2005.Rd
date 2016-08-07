@@ -7,11 +7,11 @@ Reads microdata for the EPA as provided by the INE
 This function reads the microdata file for the "Encuesta de Poblaci\'on Activa", EPA, survey in Spain.
 }
 \usage{
-epa2005( epa.file )
+epa2005(file)
 }
 
 \arguments{
-  \item{epa.file}{ The name of the microdata file }
+  \item{file}{ The name of the microdata file }
 }
 \details{
 This function reads microdadata files for the quarterly Encuesta de Poblaci\'oon Activa survey by 
@@ -35,7 +35,7 @@ Carlos J. Gil Bellosta
 %}
 \examples{
 # This command reads a few lines sampled from the EPA for the 1Q 2011
-sample.epa.data <- epa2005(system.file( "extdata", "sampleEPA0111.txt", package = "MicroDatosEs") )
+sample.epa.data <- epa2005(system.file("extdata", "sampleEPA0111.txt", package = "MicroDatosEs"))
 }
 
 \keyword{ manip }
