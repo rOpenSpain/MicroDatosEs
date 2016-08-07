@@ -1,7 +1,7 @@
 Package: MicroDatosEs
 Type: Package
 Title: Utilities for Official Spanish Microdata
-Version: 0.7.13
+Version: 0.8.01
 Date: 2016-08-06
 Encoding: UTF-8
 Authors@R:c( person("Carlos J.", "Gil Bellosta", email="cgb@datanalytics.com", role=c('aut', 'cre')),
