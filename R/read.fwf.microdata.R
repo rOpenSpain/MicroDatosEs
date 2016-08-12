@@ -16,21 +16,27 @@ read.fwf.microdata <- function(file, file.mdat.1, file.mdat.2, fileEncoding = "U
   mdat.2 <- foo(file.mdat.2)
 
 	## read fixed file using mdat1 metadata file
-	dat <- read_fwf(file, fwf_widths(mdat.1$width, col_names = mdat.1$var))
-
+  ## hides messages by read_fwf
+  suppressMessages(
+	  dat <- read_fwf(file, fwf_widths(mdat.1$width, col_names = mdat.1$var))
+	)
+	
 	# Replaces keys in raw data by actual column values
-	assign.labels <-  function(v, var.name){
-		tmp <- mdat.2[mdat.2$var == var.name,]
-
-		# special cases: numeric, etc.
-		if (nrow(tmp) == 1 && tmp$tipo != "D"){
-			if (!is.na(tmp$nulo) && any(v == tmp$nulo, na.rm = T))
-				v[v == tmp$nulo] <- NA
+	assign.labels <-  function(v, metadat){
+		
+		# happens!
+	  if (all(is.na(v)))
+	    return(v)
+	  
+	  # special cases: numeric, etc.
+		if (nrow(metadat) == 1 && metadat$tipo != "D"){
+			if (!is.na(metadat$nulo) && any(v == metadat$nulo, na.rm = T))
+				v[v == metadat$nulo] <- NA
 			
-			if (tmp$tipo == "N")
+			if (metadat$tipo == "N")
 			  return(as.numeric(v))
 			
-			if(tmp$tipo == "HHMM"){
+			if(metadat$tipo == "HHMM"){
 			  v <- as.numeric(v)
 				return(v %/% 100 + ( v %% 100 ) / 60)
 			}
@@ -38,9 +44,10 @@ read.fwf.microdata <- function(file, file.mdat.1, file.mdat.2, fileEncoding = "U
 		}
 		
 		# Check whether keys are numbers (usual case)
+	  # Mind the double negation!
 		# Then, format codes (maybe like "07") into codes such like "7"
 		v <- factor(v)
-		if (!any(is.na(as.numeric(levels(v))))){
+		if (!grepl("[^0-9]", paste(levels(v), collapse = ""))){
 		  levels(v) <- as.character(as.numeric(levels(v)))
 		}
 		
@@ -49,14 +56,17 @@ read.fwf.microdata <- function(file, file.mdat.1, file.mdat.2, fileEncoding = "U
 		# indeed, in some cases (e.g., municipality) codes correspond to municipalities
 		# and extra codes mark small size municipalities
 		levels(v) <- sapply(levels(v), function(x){ 
-		  if (length(where <- which(tmp$llave == x)) > 0)
-		    tmp$valor[where]
+		  if (length(where <- which(metadat$llave == x)) > 0)
+		    metadat$valor[where]
 		  else x
 		})
 		                    
 		as.character(v)
 	}
-
-	as.data.frame(lapply(names(dat), function(x) assign.labels(dat[[x]], x)))
+	
+	for(colname in colnames(dat))
+	  dat[[colname]] <- assign.labels(dat[[colname]], mdat.2[mdat.2$var == colname,])
+	
+	dat
 }
 
