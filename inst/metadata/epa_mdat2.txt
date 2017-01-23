@@ -522,7 +522,7 @@
 "SIDI1"	"D"	NA	"3"	"Dedicado a las labores del hogar"
 "SIDI1"	"D"	NA	"4"	"Incapacitado permanente"
 "SIDI1"	"D"	NA	"5"	"Percibiendo una pensión distinta a la de jubilación (o prejubilación)"
-"SIDI1"	"D"	NA	"6"	"Realizando sin remuneración trabajos sociales, actividades benéficas"
+"SIDI1"	"D"	NA	"6"	"Realizando sin remuneración trabajos sociales, actividades benéficas"
 "SIDI1"	"D"	NA	"7"	"Otras situaciones"
 "SIDI1"	"D"	NA	"0"	"No sabe / No refiere estado de inactividad"
 "SIDI2"	"D"	NA	"1"	"Estudiante (aunque esté de vacaciones)"
@@ -530,7 +530,7 @@
 "SIDI2"	"D"	NA	"3"	"Dedicado a las labores del hogar"
 "SIDI2"	"D"	NA	"4"	"Incapacitado permanente"
 "SIDI2"	"D"	NA	"5"	"Percibiendo una pensión distinta a la de jubilación (o prejubilación)"
-"SIDI2"	"D"	NA	"6"	"Realizando sin remuneración trabajos sociales, actividades benéficas"
+"SIDI2"	"D"	NA	"6"	"Realizando sin remuneración trabajos sociales, actividades benéficas"
 "SIDI2"	"D"	NA	"7"	"Otras situaciones"
 "SIDI2"	"D"	NA	"0"	"No sabe / No refiere estado de inactividad"
 "SIDI3"	"D"	NA	"1"	"Estudiante (aunque esté de vacaciones)"
@@ -538,7 +538,7 @@
 "SIDI3"	"D"	NA	"3"	"Dedicado a las labores del hogar"
 "SIDI3"	"D"	NA	"4"	"Incapacitado permanente"
 "SIDI3"	"D"	NA	"5"	"Percibiendo una pensión distinta a la de jubilación (o prejubilación)"
-"SIDI3"	"D"	NA	"6"	"Realizando sin remuneración trabajos sociales, actividades benéficas"
+"SIDI3"	"D"	NA	"6"	"Realizando sin remuneración trabajos sociales, actividades benéficas"
 "SIDI3"	"D"	NA	"7"	"Otras situaciones"
 "SIDI3"	"D"	NA	"0"	"No sabe / No refiere estado de inactividad"
 "SIDAC1"	"D"	NA	"1"	"Trabajando"
