@@ -4,6 +4,7 @@
 # Reads a generic microdata file
 # Changes:
 #   20160806: changed workhorse to readr::read_fwf
+#   20170427: some microdata files are read outside this function
 ###################################################################
 
 read.fwf.microdata <- function(file, file.mdat.1, file.mdat.2, fileEncoding = "UTF-8"){
@@ -17,9 +18,14 @@ read.fwf.microdata <- function(file, file.mdat.1, file.mdat.2, fileEncoding = "U
 
 	## read fixed file using mdat1 metadata file
   ## hides messages by read_fwf
-  suppressMessages(
-	  dat <- read_fwf(file, fwf_widths(mdat.1$width, col_names = mdat.1$var))
-	)
+  ## 20170427: some microdata files are read outside this function
+  if (!is.data.frame(file)){
+    suppressMessages(
+      dat <- read_fwf(file, fwf_widths(mdat.1$width, col_names = mdat.1$var))
+    )
+  } else {
+    dat <- file
+  }
 	
 	# Replaces keys in raw data by actual column values
 	assign.labels <-  function(v, metadat){
