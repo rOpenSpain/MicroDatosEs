@@ -15,8 +15,15 @@ padron2016 <- function(file){
     dat <- read_fwf(file, fwf_widths(mdat.1$width, col_names = mdat.1$var))
   )
   
-  dat$CMUN  <- paste0(dat$CPRO, dat$CMUN)
-  dat$CMUNN <- paste0(dat$CPRON, dat$CMUNN)
+  foo <- function(prov, mun){
+    mascara <- is.na(mun)
+    res <- paste0(prov, mun)
+    res[mascara] <- NA
+    res
+  }
+  
+  dat$CMUN  <- foo(dat$CPRO, dat$CMUN)
+  dat$CMUNN <- foo(dat$CPRON, dat$CMUNN)
   
   read.fwf.microdata(dat, 
                      system.file("metadata", "padron_2016_mdat1.txt", package = "MicroDatosEs"),
