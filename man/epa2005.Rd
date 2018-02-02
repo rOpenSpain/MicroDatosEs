@@ -14,9 +14,9 @@ epa2005(file)
   \item{file}{ The name of the microdata file }
 }
 \details{
-This function reads microdadata files for the quarterly Encuesta de Poblaci\'oon Activa survey by 
+This function reads microdadata files for the quarterly Encuesta de Poblaci\'on Activa survey by 
 the Spanish Statistical Office, INE.
-The survey data can be downloaded from \url{http://www.ine.es/prodyser/micro_epa.htm}.
+The survey data can be downloaded from \url{http://www.ine.es/prodyser/microdatos.htm}.
 
 It can only read the files for the surveys from 2005 onwards. Previous files have a different,
 non compatible, format.
@@ -25,7 +25,7 @@ non compatible, format.
 A dataframe.
 }
 \references{
-  \url{http://www.ine.es/prodyser/micro_epa.htm}
+  \url{http://www.ine.es/prodyser/microdatos.htm}
 }
 \author{
 Carlos J. Gil Bellosta

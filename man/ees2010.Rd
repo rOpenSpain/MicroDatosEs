@@ -16,7 +16,7 @@ ees2010(file)
 \details{
 This function reads microdadata files for the "Encuesta de Estructura Salarial" survey by 
 the Spanish Statistical Office, INE.
-The survey data can be downloaded from \url{http://www.ine.es/prodyser/micro_epa.htm}.
+The survey data can be downloaded from \url{http://www.ine.es/prodyser/microdatos.htm}.
 
 It can read the files for the 2010 survey. It might work for microdata from previous surveys (1995, 2002, 2006). 
 }
@@ -24,7 +24,7 @@ It can read the files for the 2010 survey. It might work for microdata from prev
 A \code{data.frame}.
 }
 \references{
-  The INE page describing these microdata, \url{http://goo.gl/5DK2O3}.
+  The INE page describing these microdata, \url{http://www.ine.es/prodyser/microdatos.htm}.
 }
 \author{
 Carlos J. Gil Bellosta, with major contributions from Jos\'e Luis Ca\~nadas Reche.
