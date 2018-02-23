@@ -1,0 +1,18 @@
+var	start	end	width	descr
+SEXO	1	1	1	sexo
+PROVNAC	2	3	2	Provincia de nacimiento
+MUNINAC	4	6	3	Municipio o país de nacimiento
+EDAD	7	9	3	Edad en el momento de la VR
+MESNAC	10	11	2	Mes de nacimiento
+AÑONAC	12	15	4	Año de nacimiento
+CNAC	16	18	3	Nacionalidad
+PROVALTA	19	20	2	Provincia de alta
+MUNIALTA	21	23	3	Municipio o país de alta
+MESVAR	24	25	2	Mes de variación
+AÑOVAR	26	29	4	Año de variacción
+PROVBAJA	30	31	2	Provincia de baja
+MUNIBAJA	32	34	3	Municipio o país de baja
+TAMUALTA	35	35	1	Tamaño del municipio de alta
+TAMUBAJA	36	36	1	Tamaño del municipio de baja
+TAMUNACI	37	37	1	Tamaño del municipio de nacimiento
+
