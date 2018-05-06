@@ -4,7 +4,7 @@ Title: Utilities for Official Spanish Microdata
 Version: 0.8.11
 Date: 2017-04-27
 Encoding: UTF-8
-Authors@R:c( person("Carlos J.", "Gil Bellosta", email="cgb@datanalytics.com", role=c('aut', 'cre')),
+Authors@R: c( person("Carlos J.", "Gil Bellosta", email="cgb@datanalytics.com", role=c('aut', 'cre')),
 		person("Carlos", "Neira", email = "cneirac@gmail.com", role="ctb"),
 		person("Diego", "Paniagua Sánchez", email = "dpansan@gmail.com", role="ctb"),
 		person("Fiorella", "Mori Peláez", email = "fiorella.mori.pelaez@gmail.com", role="ctb"),
@@ -15,3 +15,4 @@ Depends: readr
 License: GPL-3
 LazyLoad: yes
 LazyData: yes
+RoxygenNote: 6.0.1

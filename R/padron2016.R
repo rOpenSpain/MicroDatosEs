@@ -1,3 +1,25 @@
+#' Download data from the "Padrón"
+#' 
+#' This function downloads data from the Spanish "padrón" using the information provided by the Spanish Statistical Office (INE).
+#' 
+#' @param file Character string with the name of the microdata file provided by the INE on the  
+#' \href{http://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177012&menu=resultados&secc=1254736195462&idp=1254734710990}{Padrón} section. It allows either a path to a file, 
+#' or literal data (single string or raw vector). It also allows compressed files in \code{.gz}, \code{.bz2}, \code{.xz}, or \code{.zip} format.
+#' 
+#' @return \code{\link[tibble]{tibble}} with all avaliable requested data where each row corresponds to an anonymised citizen.
+#' @details This function reads microdata from the members approach of the "Padrón" in Spain. It was originally built using the metadata for 2016 file but it may be used for later years. Previous files have a different, non compatible, format.
+#' 
+#' @author Carlos J. Gil Bellosta; metadata provided by Fiorella Mori.
+#' @note The \code{file} parameter allows any flat file with fixed width.
+#' @references http://www.ine.es/prodyser/microdatos.htm
+#' @examples 
+#' \dontrun{
+#' raw <- epf.2011.gastos("sample_padron_2016.txt")
+#' summary(raw)
+#' }
+#' @seealso \code{\link[read_fwf]{readr}} to read fixed width files.
+
+
 ###################################################################
 # cjgb
 # 20170427
