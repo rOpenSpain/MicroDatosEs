@@ -19,8 +19,6 @@ It is intended mostly for microdata which is generated periodically with the sam
 
 ## Use cases and examples
 
-Here are some use cases of some of the functions included in the package.
-
 * [Un paseo por el paquete MicroDatosEs (y la EPA, de nuevo)](https://www.datanalytics.com/2012/08/06/un-paseo-por-el-paquete-microdatoses-y-la-epa-de-nuevo/)
 
 
