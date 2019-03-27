@@ -1,9 +1,9 @@
 #' Download data from the "Frontur"
 #' 
-#' This function downloads data from the Spanish "frontur" using the information provided by the Spanish Statistical Office (INE).
+#' This function downloads data from the Spanish "FRONTUR" using the information provided by the Spanish Statistical Office (INE).
 #' 
 #' @param file Character string with the name of the microdata file provided by the INE on the  
-#' \href{http://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177012&menu=resultados&secc=1254736195462&idp=1254734710990}{Padrón} section. It allows either a path to a file, 
+#' \href{http://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736176996&menu=resultados&secc=1254736195382&idp=1254735576863}{FRONTUR} section. It allows either a path to a file, 
 #' or literal data (single string or raw vector). It also allows compressed files in \code{.gz}, \code{.bz2}, \code{.xz}, or \code{.zip} format.
 #' 
 #' @return \code{\link[tibble]{tibble}} with all avaliable requested data where each row corresponds to an anonymised citizen.
@@ -28,7 +28,7 @@
 
 frontur2016 <- function(file){
   
-  mdat.1 <- read.table('inst/metadata/frontur_2016_mdat1.txt', 
+  mdat.1 <- read.table(system.file("metadata", "frontur_2016_mdat1.txt", package = "MicroDatosEs"),
                        header = T, sep = "\t", 
                        fileEncoding = "UTF-8",
                        stringsAsFactors = FALSE)
