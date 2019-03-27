@@ -1,6 +1,6 @@
-importFrom("readr",  "read_fwf", "fwf_widths")
+importFrom("readr",  "read_fwf", "fwf_widths", "read_csv2")
 importFrom("utils", "read.table")
 
 export(epa2005, test.metadata, defun2011, ees2010, 
        censo2010, epf.2011.gastos, epf.2011.hogares, 
-       epf.2011.miembros, padron2016)
+       epf.2011.miembros, padron2016, frontur2016)
