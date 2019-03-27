@@ -1,0 +1,12 @@
+var	start	end	width	descr
+A0	1	1	1	Encuesta de procedencia
+A0_1	2	15	14	Identificador cuestionario
+A0_7	16	16	1	Tipo de viajero
+A1	17	17	1	Vía de Entrada de los turistas
+Residencia	18	19	2	Pais de residencia habitual
+CCAA	20	21	2	Comunidad Autónoma de destino principal del viaje
+A14	22	22	1	Alojamiento principal
+A15	23	23	1	Motivo del viaje
+A16	24	24	1	Utilización de paquete turístico
+A13_1	25	25	1	Duración del viaje
+Factor	26	37	12	Factor de elevación de la encuesta
