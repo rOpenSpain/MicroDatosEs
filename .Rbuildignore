@@ -2,3 +2,6 @@
 ^\.travis\.yml$
 ^.*\.Rproj$
 ^\.Rproj\.user$
+^\.github$
+^docs$
+^_pkgdown\.yml$
