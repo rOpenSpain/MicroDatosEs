@@ -33,7 +33,7 @@ summary(raw)
 http://www.ine.es/prodyser/microdatos.htm
 }
 \seealso{
-\code{\link[read_fwf]{readr}} to read fixed width files.
+\code{\link[readr]{read_fwf}} to read fixed width files.
 }
 \author{
 Diego Paniagua Sánchez and Carlos J. Gil Bellosta
