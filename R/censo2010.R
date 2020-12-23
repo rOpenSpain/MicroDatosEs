@@ -19,7 +19,7 @@
 #' raw <- censo2010("MicrodatosCP_NV_per_nacional_3VAR.txt")
 #' summary(raw)
 #' }
-#' @seealso \code{\link[read_fwf]{readr}} to read fixed width files.
+#' @seealso \code{\link[readr]{read_fwf}} to read fixed width files.
 
 
 ###################################################################

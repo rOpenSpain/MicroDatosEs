@@ -27,7 +27,7 @@ The \code{file} parameter allows any flat file with fixed width.
 }
 \examples{
  
-# Downloaded \\href{ftp://www.ine.es/temas/censopv/cen11/Microdatos_personas_nacional.zip}{data}
+# Downloaded \href{ftp://www.ine.es/temas/censopv/cen11/Microdatos_personas_nacional.zip}{data}
 \dontrun{
 raw <- censo2010("MicrodatosCP_NV_per_nacional_3VAR.txt")
 summary(raw)
@@ -37,7 +37,7 @@ summary(raw)
 http://www.ine.es/prodyser/microdatos.htm
 }
 \seealso{
-\code{\link[read_fwf]{readr}} to read fixed width files.
+\code{\link[readr]{read_fwf}} to read fixed width files.
 }
 \author{
 Carlos Neira and Carlos J. Gil Bellosta

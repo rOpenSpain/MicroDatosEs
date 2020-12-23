@@ -17,7 +17,7 @@
 #' raw <- ees2010("datos_2014.zip") # It will be automatically uncompressed.
 #' summary(raw)
 #' }
-#' @seealso \code{\link[read_fwf]{readr}} to read fixed width files.
+#' @seealso \code{\link[readr]{read_fwf}} to read fixed width files.
 
 
 ###################################################################

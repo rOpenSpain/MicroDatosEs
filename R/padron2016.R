@@ -17,7 +17,7 @@
 #' raw <- epf.2011.gastos("sample_padron_2016.txt")
 #' summary(raw)
 #' }
-#' @seealso \code{\link[read_fwf]{readr}} to read fixed width files.
+#' @seealso \code{\link[readr]{read_fwf}} to read fixed width files.
 
 
 ###################################################################
