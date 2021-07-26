@@ -1,19 +1,40 @@
-Package: MicroDatosEs
 Type: Package
+Package: MicroDatosEs
 Title: Utilities for Official Spanish Microdata
 Version: 0.8.12
 Date: 2018-05-13
-Encoding: UTF-8
-Authors@R: c( person("Carlos J.", "Gil Bellosta", email="cgb@datanalytics.com", role=c('aut', 'cre')),
-		person("Carlos", "Neira", email = "cneirac@gmail.com", role="ctb"),
-		person("Diego", "Paniagua Sánchez", email = "dpansan@gmail.com", role="ctb"),
-		person("Fiorella", "Mori Peláez", email = "fiorella.mori.pelaez@gmail.com", role="ctb"),
-		person("Jorge", "López Pérez", email = "jorge@loperez.com", role="ctb"),
-		person("José Luis", "Cañadas Reche", email = "canadasreche@gmail.com", role="ctb"))
-Description: Provides utilities for reading and processing microdata from Spanish official statistics with R.
-URL: http://www.datanalytics.com/2012/08/06/un-paseo-por-el-paquete-microdatoses-y-la-epa-de-nuevo/
-Depends: readr
+Authors@R: 
+    c(person(given = "Carlos J.",
+             family = "Gil Bellosta",
+             role = c("aut", "cre"),
+             email = "cgb@datanalytics.com"),
+      person(given = "Carlos",
+             family = "Neira",
+             role = "ctb",
+             email = "cneirac@gmail.com"),
+      person(given = "Diego",
+             family = "Paniagua Sánchez",
+             role = "ctb",
+             email = "dpansan@gmail.com"),
+      person(given = "Fiorella",
+             family = "Mori Peláez",
+             role = "ctb",
+             email = "fiorella.mori.pelaez@gmail.com"),
+      person(given = "Jorge",
+             family = "López Pérez",
+             role = "ctb",
+             email = "jorge@loperez.com"),
+      person(given = "José Luis",
+             family = "Cañadas Reche",
+             role = "ctb",
+             email = "canadasreche@gmail.com"))
+Description: Provides utilities for reading and processing microdata from
+    Spanish official statistics with R.
 License: GPL-3
-LazyLoad: yes
-LazyData: yes
-RoxygenNote: 6.0.1
+URL: https://github.com/ropenspain/MicroDatosEs,
+    https://www.datanalytics.com/2012/08/06/un-paseo-por-el-paquete-microdatoses-y-la-epa-de-nuevo/
+BugReports: https://github.com/ropenspain/MicroDatosEs/issues
+Depends: 
+    readr
+Encoding: UTF-8
+RoxygenNote: 7.1.1
