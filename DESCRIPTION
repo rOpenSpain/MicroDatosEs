@@ -1,14 +1,15 @@
 Package: MicroDatosEs
 Type: Package
 Title: Utilities for Official Spanish Microdata
-Version: 0.8.12
-Date: 2018-05-13
+Version: 0.8.14
+Date: 2022-10-04
 Encoding: UTF-8
 Authors@R: c( person("Carlos J.", "Gil Bellosta", email="cgb@datanalytics.com", role=c('aut', 'cre')),
 		person("Carlos", "Neira", email = "cneirac@gmail.com", role="ctb"),
 		person("Diego", "Paniagua Sánchez", email = "dpansan@gmail.com", role="ctb"),
 		person("Fiorella", "Mori Peláez", email = "fiorella.mori.pelaez@gmail.com", role="ctb"),
 		person("Jorge", "López Pérez", email = "jorge@loperez.com", role="ctb"),
+		person("Estitxu", "Villamor", email = "estitxu.villamor@ehu.eus", role="ctb"),
 		person("José Luis", "Cañadas Reche", email = "canadasreche@gmail.com", role="ctb"))
 Description: Provides utilities for reading and processing microdata from Spanish official statistics with R.
 URL: http://www.datanalytics.com/2012/08/06/un-paseo-por-el-paquete-microdatoses-y-la-epa-de-nuevo/
