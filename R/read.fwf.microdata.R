@@ -15,7 +15,7 @@ read.fwf.microdata <- function(
 
 	## read metadata
 	foo <- function(x)
-		read.table(x, header = T, sep = "\t",
+		read.table(x, header = TRUE, sep = "\t",
 					fileEncoding = fileEncoding, stringsAsFactors = FALSE)
 
 	mdat.1 <- foo(file.mdat.1)
@@ -50,7 +50,7 @@ read.fwf.microdata <- function(
 
 		# special cases: numeric, etc.
 		if (nrow(metadat) == 1 && tipo != "D"){
-			if (!is.na(metadat$nulo) && any(v == metadat$nulo, na.rm = T))
+			if (!is.na(metadat$nulo) && any(v == metadat$nulo, na.rm = TRUE))
 				v[v == metadat$nulo] <- NA
 
 			if (tipo == "N")

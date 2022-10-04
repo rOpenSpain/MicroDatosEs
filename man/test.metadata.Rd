@@ -62,7 +62,7 @@ x <- test.metadata(system.file("extdata", "sampleEPA0111.txt", package = "MicroD
 # Example of first metadata file
 mdat1_example <- read.table(system.file("metadata", "epa_mdat1.txt",
  package = "MicroDatosEs"),
- header = T, sep = "\t",
+ header = TRUE, sep = "\t",
  fileEncoding = "UTF-8",
  stringsAsFactors = FALSE)
 head(mdat1_example)
@@ -70,7 +70,7 @@ head(mdat1_example)
 # Example of second metadata file
 mdat2_example <- read.table(system.file("metadata", "epa_mdat2.txt",
  package = "MicroDatosEs"),
- header = T, sep = "\t",
+ header = TRUE, sep = "\t",
  fileEncoding = "UTF-8",
  stringsAsFactors = FALSE)
 
