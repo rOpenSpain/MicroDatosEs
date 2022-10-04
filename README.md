@@ -1,6 +1,6 @@
 # MicroDatosEs
 
-[![Build Status](https://travis-ci.org/rOpenSpain/MicroDatosEs.svg)](https://travis-ci.org/rOpenSpain/MicroDatosEs)
+[![R build status](https://github.com/rOpenSpain/MicroDatosEs/actions/workflows/R-CMD-check/badge.svg)](https://github.com/rOpenSpain/MicroDatosEs/actions/?workflow=R-CMD-check)
 
 `MicroDatosEs` is an R package to process [microdata](https://en.wikipedia.org/wiki/Microdata_(statistics)) provided by Spanish statistical agencies (mostly, [INE](http://www.ine.es)).
 
