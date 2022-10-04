@@ -81,7 +81,7 @@ IMPUINTERPSP	168	168	1	¿El intervalo de ingresos  procede de una imputación?
 TRABAJO	169	170	2	¿Ha trabajado alguna vez en su vida?
 OCUPA	171	172	2	Ocupación que desempeña o desempeñó (Ver ANEXO: Clasificación de ocupaciones) (A partir de 2012 nueva Clasificación Nacional de Ocupaciones, CNO11.)
 OCUPARED	173	174	2	Ocupación que desempeña o desempeñó reducida (Ver ANEXO: Clasificación de  ocupaciones) (A partir de 2012 nueva Clasificación Nacional de Ocupaciones, CNO11.)
-ACTESTB	176	176	1	Actividad del establecimiento en el que trabaja o trabajó (Ver ANEXO: Clasificación Nacional de  Actividades Económicas)
+ACTESTB	176	176	2	Actividad del establecimiento en el que trabaja o trabajó (Ver ANEXO: Clasificación Nacional de  Actividades Económicas)
 ACTESTBRED	177	178	2	Actividad del establecimiento en el que trabaja o trabajó reducida (Ver ANEXO: Clasificación Nacional de  Actividades Económicas)
 SITPROF	179	180	2	Situación profesional
 SECTOR	181	182	2	Sector de actividad
