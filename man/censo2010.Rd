@@ -8,7 +8,7 @@ censo2010(file)
 }
 \arguments{
 \item{file}{Character string with the name of the microdata file provided by the INE on the
-\href{http://www.ine.es/censos2011_datos/cen11_datos_microdatos.htm}{Census} section. It allows either a path to a file, 
+\href{http://www.ine.es/censos2011_datos/cen11_datos_microdatos.htm}{Census} section. It allows either a path to a file,
 or literal data (single string or raw vector). It also allows compressed files in \code{.gz}, \code{.bz2}, \code{.xz}, or \code{.zip} format.}
 }
 \value{
@@ -26,7 +26,7 @@ Note that the loaded object will be of considerable size and may require a compu
 The \code{file} parameter allows any flat file with fixed width.
 }
 \examples{
- 
+
 # Downloaded \\href{ftp://www.ine.es/temas/censopv/cen11/Microdatos_personas_nacional.zip}{data}
 \dontrun{
 raw <- censo2010("MicrodatosCP_NV_per_nacional_3VAR.txt")
@@ -37,7 +37,7 @@ summary(raw)
 http://www.ine.es/prodyser/microdatos.htm
 }
 \seealso{
-\code{\link[read_fwf]{readr}} to read fixed width files.
+\code{\link[readr]{read_fwf}} to read fixed width files.
 }
 \author{
 Carlos Neira and Carlos J. Gil Bellosta

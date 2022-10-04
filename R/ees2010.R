@@ -1,23 +1,23 @@
-#' Download data from the Encuesta de Estructura Salarial (EES) 
-#' 
+#' Download data from the Encuesta de Estructura Salarial (EES)
+#'
 #' This function downloads data from the Spanish Survey of Salary Structure using the information provided by the Spanish Statistical Office (INE).
-#' 
-#' @param file Character string with the name of the microdata file provided by the INE on the  
-#' \href{http://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177025&menu=resultados&secc=1254736195110&idp=1254735976596}{EES} section. It allows either a path to a file, 
+#'
+#' @param file Character string with the name of the microdata file provided by the INE on the
+#' \href{http://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177025&menu=resultados&secc=1254736195110&idp=1254735976596}{EES} section. It allows either a path to a file,
 #' or literal data (single string or raw vector). It also allows compressed files in \code{.gz}, \code{.bz2}, \code{.xz}, or \code{.zip} format.
-#' 
+#'
 #' @return \code{\link[tibble]{tibble}} with all avaliable requested data where each row corresponds to an anonymised citizen.
 #' @details This function reads microdata from the Survey of Salary Structure in Spain. It was originally built using the metadata for 2010 file but it may be used for later years. Previous files have a different, non compatible, format.
-#' 
+#'
 #' @author Carlos J. Gil Bellosta, with major contributions from José Luis Cañadas Reche
 #' @note The \code{file} parameter allows any flat file with fixed width.
 #' @references http://www.ine.es/prodyser/microdatos.htm
-#' @examples  
+#' @examples
 #' \dontrun{
 #' raw <- ees2010("datos_2014.zip") # It will be automatically uncompressed.
 #' summary(raw)
 #' }
-#' @seealso \code{\link[read_fwf]{readr}} to read fixed width files.
+#' @seealso \code{\link[readr]{read_fwf}} to read fixed width files.
 
 
 ###################################################################
@@ -27,7 +27,7 @@
 ###################################################################
 
 ees2010 <- function(file){
-  read.fwf.microdata(file, 
+  read.fwf.microdata(file,
                      system.file( "metadata", "ees_mdat1.txt", package = "MicroDatosEs" ),
                      system.file( "metadata", "ees_mdat2.txt", package = "MicroDatosEs" ),
                      fileEncoding = "UTF-8")
