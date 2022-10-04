@@ -1,6 +1,6 @@
 # MicroDatosEs
 
-[![R build status](https://github.com/rOpenSpain/MicroDatosEs/actions/workflows/R-CMD-check/badge.svg)](https://github.com/rOpenSpain/MicroDatosEs/actions/?workflow=R-CMD-check)
+[![R build status](https://github.com/rOpenSpain/MicroDatosEs/workflows/R-CMD-check/badge.svg)](https://github.com/rOpenSpain/MicroDatosEs/actions/?workflow=R-CMD-check)
 
 `MicroDatosEs` is an R package to process [microdata](https://en.wikipedia.org/wiki/Microdata_(statistics)) provided by Spanish statistical agencies (mostly, [INE](http://www.ine.es)).
 
@@ -10,7 +10,7 @@ It is intended mostly for microdata which is generated periodically with the sam
 
 ## Covered datasets
 
-* **EPA** (Encuesta de población activa)  
+* **EPA** (Encuesta de población activa)
 * **Census (2011)**
 * **EES** (Encuesta de estructura salarial)
 * **Mortality** (Annual deaths in Spain): unfortunately, public microdata does not include the cause of death.
