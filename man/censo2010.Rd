@@ -26,10 +26,13 @@ Note that the loaded object will be of considerable size and may require a compu
 The \code{file} parameter allows any flat file with fixed width.
 }
 \examples{
-
-# Downloaded \\href{ftp://www.ine.es/temas/censopv/cen11/Microdatos_personas_nacional.zip}{data}
+# Downloaded \href{ftp://www.ine.es/temas/censopv/cen11/Microdatos_personas_nacional.zip}{data}
 \dontrun{
 raw <- censo2010("MicrodatosCP_NV_per_nacional_3VAR.txt")
+summary(raw)
+
+# test with example file bundled with the package
+raw <- censo2010(system.file("extdata/sampleCenso2010.txt", package = "MicroDatosEs"))
 summary(raw)
 }
 }
