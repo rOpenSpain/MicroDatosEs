@@ -1,4 +1,7 @@
 var	tipo	nulo	llave	"valor"
+ANOENC	N	NA	NA	
+NUMERO	N	NA	NA	
+NORDEN	N	NA	NA	
 CATEGMH	D	NA	1	"Miembro del hogar (no servicio doméstico, huésped ni invitado)"
 CATEGMH	D	NA	2	"Servicio doméstico"
 CATEGMH	D	NA	3	"Huésped"
@@ -79,6 +82,7 @@ JORNADA	D	NA	1	"Completa"
 JORNADA	D	NA	2	"Parcial"
 PERCEP	D	NA	1	"Sí"
 PERCEP	D	NA	6	"No"
+IMPEXACP	N	NA	NA	
 IMPUEXACP	D	NA	1	"Sí"
 IMPUEXACP	D	NA	6	"No"
 INTERINP	D	NA	1	"Menos de 500 euros"
@@ -96,3 +100,4 @@ HIJODEP	D	NA	1	"Sí"
 HIJODEP	D	NA	6	"No"
 ADULTO	D	NA	1	"Sí"
 ADULTO	D	NA	6	"No"
+FACTOR	N	NA	0	""

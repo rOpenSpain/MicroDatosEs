@@ -16,6 +16,10 @@
 #' \dontrun{
 #' raw <- ees2010("datos_2014.zip") # It will be automatically uncompressed.
 #' summary(raw)
+#' 
+#' # test with example file bundled with the package
+#' raw <- ees2010(system.file("extdata/sampleEES2010.txt", package = "MicroDatosEs"))
+#' summary(raw) 
 #' }
 #' @seealso \code{\link[readr]{read_fwf}} to read fixed width files.
 

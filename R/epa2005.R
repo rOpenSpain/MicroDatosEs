@@ -14,7 +14,8 @@
 #' @references http://www.ine.es/prodyser/microdatos.htm
 #' @examples
 #' \dontrun{
-#' raw <- epa2005("EPA4T017")
+#' # test with example file bundled with the package
+#' raw <- epa2005(system.file("extdata/sampleEPA0111.txt", package = "MicroDatosEs"))
 #' summary(raw)
 #' }
 #' @seealso \code{\link[readr]{read_fwf}} to read fixed width files.
