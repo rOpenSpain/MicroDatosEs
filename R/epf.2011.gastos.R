@@ -14,7 +14,8 @@
 #' @references http://www.ine.es/prodyser/microdatos.htm
 #' @examples
 #' \dontrun{
-#' raw <- epf.2011.gastos("sample_gastos_a2011.txt")
+#' # test with example file bundled with the package
+#' raw <- epf.2011.gastos(system.file("extdata/sample_gastos_a2011.txt", package = "MicroDatosEs"))
 #' summary(raw)
 #' }
 #' @seealso \code{\link[readr]{read_fwf}} to read fixed width files.

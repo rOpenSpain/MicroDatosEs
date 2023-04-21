@@ -18,6 +18,10 @@
 #' \dontrun{
 #' raw <- censo2010("MicrodatosCP_NV_per_nacional_3VAR.txt")
 #' summary(raw)
+#' 
+#' # test with example file bundled with the package
+#' raw <- censo2010(system.file("extdata/sampleCenso2010.txt", package = "MicroDatosEs"))
+#' summary(raw)
 #' }
 #' @seealso \code{\link[readr]{read_fwf}} to read fixed width files.
 

@@ -15,7 +15,8 @@
 #' @references http://www.ine.es/prodyser/microdatos.htm
 #' @examples
 #' \dontrun{
-#' raw <- defun2011("datos_2016.zip") # It will be automatically uncompressed.
+#' # test with example file bundled with the package
+#' raw <- defun2011(system.file("extdata/sampleDEFUN2010.txt", package = "MicroDatosEs"))
 #' summary(raw)
 #' }
 #' @seealso \code{\link[readr]{read_fwf}} to read fixed width files.
