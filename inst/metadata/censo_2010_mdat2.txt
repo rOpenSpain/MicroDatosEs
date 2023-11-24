@@ -2655,3 +2655,4 @@ CSE	D	NA	19	"No clasificables por condicion socioeconómica"
 RES_ANTERIOR	D	NA	1	"Sí"
 RES_UNANO	D	NA	1	"Sí"
 RES_DANO	D	NA	1	"Sí"
+TDESP	N	NA	NA	NA	
