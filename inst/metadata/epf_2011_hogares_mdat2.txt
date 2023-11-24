@@ -261,8 +261,8 @@
 "PERCEPSP"	"D"	NA	1	"Sí"
 "PERCEPSP"	"D"	NA	6	"No"
 "IMPEXACPSP"	"N"	NA	NA	
-"IMPUEXACPSP "	"D"	NA	1	"Sí"
-"IMPUEXACPSP "	"D"	NA	6	"No"
+"IMPUEXACPSP"	"D"	NA	1	"Sí"
+"IMPUEXACPSP"	"D"	NA	6	"No"
 "INTERINPSP"	"D"	NA	1	"Menos de 500 €"
 "INTERINPSP"	"D"	NA	2	"De 500 a menos de 1000 €"
 "INTERINPSP"	"D"	NA	3	"De 1000 a menos de 1500 €"

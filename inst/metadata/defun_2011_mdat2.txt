@@ -26,7 +26,6 @@
 "ECIV"	"D"	NA	"2"	"Casado/a"
 "ECIV"	"D"	NA	"3"	"Viudo/a"
 "ECIV"	"D"	NA	"4"	"Divorciado/a"
-"CODPROF"	"N"	NA	NA	""
 "CODPROF"	"D"	NA	"01"	"Fuerzas armadas"
 "CODPROF"	"D"	NA	"02"	"Dirección de las empresas y de las administraciones públicas"
 "CODPROF"	"D"	NA	"03"	"Técnicos y profesionales científicos e intelectuales"
