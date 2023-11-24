@@ -17,4 +17,4 @@ Depends: readr
 License: GPL-3
 LazyLoad: yes
 LazyData: yes
-RoxygenNote: 6.0.1
+RoxygenNote: 7.2.1

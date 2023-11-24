@@ -8,7 +8,7 @@ ees2010(file)
 }
 \arguments{
 \item{file}{Character string with the name of the microdata file provided by the INE on the
-\href{http://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177025&menu=resultados&secc=1254736195110&idp=1254735976596}{EES} section. It allows either a path to a file, 
+\href{http://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177025&menu=resultados&secc=1254736195110&idp=1254735976596}{EES} section. It allows either a path to a file,
 or literal data (single string or raw vector). It also allows compressed files in \code{.gz}, \code{.bz2}, \code{.xz}, or \code{.zip} format.}
 }
 \value{
@@ -24,7 +24,6 @@ This function reads microdata from the Survey of Salary Structure in Spain. It w
 The \code{file} parameter allows any flat file with fixed width.
 }
 \examples{
- 
 \dontrun{
 raw <- ees2010("datos_2014.zip") # It will be automatically uncompressed.
 summary(raw)
@@ -34,7 +33,7 @@ summary(raw)
 http://www.ine.es/prodyser/microdatos.htm
 }
 \seealso{
-\code{\link[read_fwf]{readr}} to read fixed width files.
+\code{\link[readr]{read_fwf}} to read fixed width files.
 }
 \author{
 Carlos J. Gil Bellosta, with major contributions from José Luis Cañadas Reche

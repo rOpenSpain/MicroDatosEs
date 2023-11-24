@@ -8,7 +8,7 @@ epa2005(file)
 }
 \arguments{
 \item{file}{Character string with the name of the microdata file provided by the INE on the
-\href{http://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736176918&menu=resultados&secc=1254736030639&idp=1254735976595}{EPA} section. It allows either a path to a file, 
+\href{http://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736176918&menu=resultados&secc=1254736030639&idp=1254735976595}{EPA} section. It allows either a path to a file,
 or literal data (single string or raw vector). It also allows compressed files in \code{.gz}, \code{.bz2}, \code{.xz}, or \code{.zip} format.}
 }
 \value{
@@ -33,7 +33,7 @@ summary(raw)
 http://www.ine.es/prodyser/microdatos.htm
 }
 \seealso{
-\code{\link[read_fwf]{readr}} to read fixed width files.
+\code{\link[readr]{read_fwf}} to read fixed width files.
 }
 \author{
 Carlos J. Gil Bellosta
